@@ -1,0 +1,6 @@
+sf: 4
+
+validation:
+  lr_path: Path of low-resolution images in the test set
+  io_backend:
+    type: disk

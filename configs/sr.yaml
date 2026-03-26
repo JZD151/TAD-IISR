@@ -1,0 +1,26 @@
+sf: 4
+scale: 4
+
+
+train:
+  queue_size: 180
+  gt_path: Path of the training set
+  lq_path: Path of the training set
+  crop_size: 512
+  io_backend:
+    type: disk
+  use_hflip: True
+  use_rot: False
+  image_type: png
+
+
+validation:
+  queue_size: 180
+  gt_path: Path of the validation set
+  lq_path: Path of the validation set
+  crop_size: 512
+  io_backend:
+    type: disk
+  use_hflip: True
+  use_rot: False
+  image_type: png
